@@ -88,4 +88,16 @@ input[name="r"]{
 }
 .text{
     display: flex;
+    position: absolute;
+    width: 400%;
+    bottom: 20px;
+    left: 0;
+}
+.texts{
+    width: 25%;
+    transition: all .6s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(199, 62, 218)
+
 }
