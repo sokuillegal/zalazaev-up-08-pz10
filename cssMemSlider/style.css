@@ -74,12 +74,18 @@ input[name="r"]{
 #r4:checked ~ .s1 {
     margin-left: -75%;
 }
-.text__for__slides{
+#r1:checked ~ .slide+.text .t1{
+    margin-left: 0;
+}
+#r2:checked ~ .slide+.text .t1 {
+    margin-left: -25%;
+}
+#r3:checked ~ .slide+.text .t1 {
+    margin-left: -50%;
+}
+#r4:checked ~ .slide+.text .t1 {
+    margin-left: -75%;
+}
+.text{
     display: flex;
-    position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(236, 143, 248);
-    bottom: 2%;
-    right: 78%;
-    transform:translateX(-70%);
 }
